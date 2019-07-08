@@ -1,0 +1,44 @@
+@font-face {
+	font-family: iransans;
+	src: url('../font/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+	url('../font/IRANSansWeb(FaNum).woff') format('woff'),
+	url('../font/IRANSansWeb(FaNum).woff2') format('woff2'),
+	url('../font/IRANSansWeb(FaNum).ttf') format('truetype')
+}
+
+body{
+	
+	direction:rtl;
+	font-family:iransans;
+	font-size: 14px;
+}
+
+#nav {
+	
+	margin: 0px;
+	border-width : 0 0 3.5px 0;
+	border-style: solid;
+	border-image: linear-gradient(270deg,#8b00af,#d40062,#ff0613) 1;
+	box-shadow: 0 0.4rem 0.8rem rgba(0,0,0,.21);
+}
+
+.headernavbar{
+	height:55px;
+	margin: 0px;
+}
+
+.login:hover {
+	text-decoration: none;
+	color: #d40062;
+}
+
+.login {
+	color: #4a4a4a;
+	
+}
+
+.logo {
+	
+	height: 35px;
+	margin-right: 830px;
+}

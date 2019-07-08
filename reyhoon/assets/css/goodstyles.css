@@ -1,0 +1,53 @@
+@font-face {
+	font-family: iransans;
+	src: url('../font/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+	url('../font/IRANSansWeb(FaNum).woff') format('woff'),
+	url('../font/IRANSansWeb(FaNum).woff2') format('woff2'),
+	url('../font/IRANSansWeb(FaNum).ttf') format('truetype')
+}
+
+body{
+	
+	direction:rtl;
+	
+	font-family:iransans;
+	font-size: 14px;
+}
+
+.good{
+	background-image: url("../img/9b1766f8.jpg");
+	margin-left: -60px;
+	background-repeat: no-repeat scroll center right;
+	background-size: cover;
+	text-align: right;
+	padding-bottom: 70px;
+}
+
+.good h5{
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	
+}
+
+.classify .figure-caption {
+	font-size: 14px;
+	padding-top: 8px;
+	color: #4a4a4a;
+	text-align: center;
+}
+
+.classify {
+	padding-top: 30px;
+}
+
+
+
+.classify img{
+	border: 1px solid #cbcbcb;
+	
+}
+
+.classify img:hover{
+	box-shadow: 0 .4rem .8rem rgba(0,0,0,.23);
+}

@@ -1,0 +1,88 @@
+
+@font-face {
+	font-family: iransans;
+	src: url('../font/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+	url('../font/IRANSansWeb(FaNum).woff') format('woff'),
+	url('../font/IRANSansWeb(FaNum).woff2') format('woff2'),
+	url('../font/IRANSansWeb(FaNum).ttf') format('truetype')
+}
+
+body{
+	
+	direction:rtl;
+	font-family:iransans;
+	font-size: 14px;
+}
+
+.infobackground
+{
+	margin-top: 10rem;
+	content: "";
+	width: 190%;
+	
+    display: block;
+	transform: rotate(-4deg);
+    position: relative;
+	right: -40rem;
+	
+	overflow: hidden;
+	
+    height: 42rem;
+	
+	background:#fff url("../img/faq-background.jpg") scroll 50%;
+	background-repeat: no-repeat;
+	z-index: 5 !important;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+.infoo{
+	margin-top: -200px;
+	z-index: 4;
+	position: relative;
+	text-align: right;
+	overflow: hidden;
+}
+
+.infoo p{
+	padding-bottom: 4rem;
+	line-height: 2;
+	
+    margin-bottom: 4rem;
+	color: #9b9b9b;
+}
+
+.infoo p:not(:last-of-type){
+	
+	border-bottom: .1rem solid #f1f4f7;
+}
+.infoo h2{
+	color: #4a4a4a;
+	padding-bottom: 2rem;
+	font-weight: bold;
+}
+
+.infoo .container{
+	position: relative;
+	margin-top: -250px;
+	background-color: #fff;
+    padding: 7rem 4.5rem 1rem;
+    margin-bottom: 7rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 0.4rem rgba(0,0,0,.12);
+    display: block !important;
+	z-index: 200 !important;
+
+}
+
+.bginfo:before {
+	
+	content: "";
+	display: block;
+	background-image: linear-gradient(270deg,#8b00af,#d40062,#ff0613)!important;
+    position: relative;
+    right: -70px;
+    top: -116px;
+    width: 114%;
+    height: .3rem;
+}

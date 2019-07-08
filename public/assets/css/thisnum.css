@@ -1,0 +1,145 @@
+@font-face {
+	font-family: iransans;
+	src: url('../font/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+	url('../font/IRANSansWeb(FaNum).woff') format('woff'),
+	url('../font/IRANSansWeb(FaNum).woff2') format('woff2'),
+	url('../font/IRANSansWeb(FaNum).ttf') format('truetype')
+}
+
+body{
+	direction:rtl;
+	font-family:iransans;
+	font-size: 14px;
+}
+
+#restimg {
+
+	height: 14rem !important;
+	width:100%;
+}
+@media only screen and (max-width: 400px) {
+	#restimg {
+display: none;
+	}
+	.restaurant{
+		text-align: right;
+		padding: 0px;
+		max-width:400px!important;
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+}
+
+.restaurant{
+	text-align: right;
+	padding: 0px;
+	max-width:2000px!important;
+	width: 100% !important;
+	margin-bottom: 20px;
+}
+
+.restaurant h3{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 100px;
+	font-size:1.3rem;
+    font-weight: 400;
+    color: #202020;
+	text-align:right;
+	border-bottom: solid 1px #e2e2e2;
+}
+
+
+.restaurant .form-group{
+	padding-right: 10px;
+	width: 350px;
+	border: solid 1px #e2e2e2;
+	background-color: #fafafa;
+    border-radius: .4rem;
+}
+
+.restaurant p{
+	text-align: right;
+	margin-right: 2rem;
+	padding-right: 0rem;
+	margin-bottom: -0.01rem;
+	font-size: 11px;
+	color: #777777;
+}
+.restaurant .form-check label{
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+	padding-top: 10px;
+
+	height: 38px;
+	width: 100px;
+	border: solid 1px #e2e2e2;
+	background-color: #fafafa;
+    border-radius: .4rem;
+}
+.restaurant .form-check input{
+	margin-top: 5px;
+	margin-right: 5px;
+	height: 20px;
+	width: 20px;
+
+}
+
+.restaurant .form-check label:hover{
+	background-color: gray;
+}
+.restaurant .form-check{
+	display: inline-block !important;
+}
+
+#checkboxr{
+	margin-left: 5%;
+
+	margin-top: -10px;
+	display: inline-block;
+	height: 45px;
+	width: 340px;
+	margin-left: 20px;
+
+}
+.restaurant .btn-group{
+
+	width: 30%;
+}
+.restaurant .btn-group p{
+	position: relative;
+	top: -15px;
+	right: 98px;
+}
+.restaurant button{
+	color:gray;
+	text-align: center;
+	border: solid 1px #e2e2e2;
+	background-color: #fafafa;
+    border-radius: .4rem;
+}
+
+#foodsetfilter {
+	margin-right: -40px;
+	width: 190px;
+	border: 1px #e7e7e7 solid;
+	border-radius: 0.5rem;
+}
+#foodsetfilter input{
+	width: 80%;
+	font-size: 0.8rem;
+	margin-top: 10px;
+	border: 0px;
+}
+#foodsetfilter i{
+	color: gray;
+}
+#foodsetfilter button{
+	border: 0px;
+	background-color: #fff;
+}
+.ricon{
+	border: 1px gray solid;
+	border-radius: 0.5rem;
+}
